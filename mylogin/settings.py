@@ -123,6 +123,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     '/mylogin/static/',
+    '/static/',
 ]
 
 # SESSION_COOKIE_AGE = 20
