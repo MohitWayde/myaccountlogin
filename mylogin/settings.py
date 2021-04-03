@@ -121,9 +121,9 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    '/mylogin/static/',
-    '/static/',
-]
+# STATICFILES_DIRS = [
+#     '/mylogin/static/',
+#     '/static/',
+# ]
 
 # SESSION_COOKIE_AGE = 20
