@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(0, 255, 149);
+}
+/* sign up page start */
+.h1-prime{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(11 154 95);
+}
+.formsignup{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.signup-container{
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 35%;
+    flex-direction: column;
+    padding: 50px 25px;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formsignup input{
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px 40px ;
+    font-size: 16px;
+}
+.mybutton{
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    width: 95%;
+    padding: 9px 39px;
+}
+.mybutton:hover{
+    background-color: rgb(0, 255, 149);
+}
+/* Signup page end */
+
+
+/* Signin page start*/
+.signin-container{
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+    flex-direction: column;
+    padding: 50px 25px;
+}
+
+.formsignin{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.formsignin input{
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px 40px ;
+    font-size: 16px;
+}
+.createacc{
+    font-size: 20px;
+    
+}
+/* Signin page end */
+
+/* dashboard page start */
+.dashmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-container{
+    margin-top: 40px;
+    padding: 20px;
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    border-radius: 8px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.textcenter{
+    text-align: center;
+}
+/* dashboard page end */
