@@ -9,6 +9,7 @@ django = "*"
 django-ckeditor = "*"
 django-allauth = "*"
 pipfile = "*"
+django-heroku="*"
 
 [dev-packages]
 
